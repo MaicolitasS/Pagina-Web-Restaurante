@@ -1,1 +1,1 @@
-# Pagina-Web-Restaurante
+Esta es una Pagina Web para un Restaurante de Comidas Rapidas. Tiene toda la semantica de HTML5 y Aspectos Basicos de CSS. No se implementó JavaScript ya que el ejercicio no lo pedía. El diseño general de la pagina es un poco básica ya que no tengo mucha creatividad
