@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Mona</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Comidas Rapidas La Mona</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#menu">Menú</a></li>
+                    <li><a href="#about">Sobre Nosotros</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="logo">
+        <div class="container">
+            <h2>¡Comidas rapidas La Mona, las mejores de la ciudad de Medellín!</h2>
+            <img src="Hero.png" alt="Logo" class="logo-ppal">
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h1>MENU</h1>
+            <article>
+                <h3>Hamburguesa La MonaLisa</h3>
+                <img src="hamburguesa2.jpg" alt="Hamburguesa">
+                <p>Pan Brioche, Carne Premium de 150gr, Queso Holandés, Tocineta, Cebolla Caramelizada, Lechuga, Tomate, Papas en Cascos y Salsas.</p>
+            </article>
+            <article>
+                <h3>Salchipapas</h3>
+                <img src="salchipapas.jpeg" alt="Salchipapas">
+                <p>Papas a la Francesa, Salchicha Ranchera, 2 Huevos de Codorniz, Queso Rayado y Salsas de la Casa.</p>
+            </article>
+            <article>
+                <h3>Bebidas</h3>
+                <img src="limonada.jpeg" alt="Limonada de Coco">
+                <p>Deliciosa y Refrezcante Limonada de Coco de 16oz.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h1>SOBRE NOSOTROS</h1>
+            <p>Comidas Rapidas La Mona lleva brindando servicio desde 2014, especializados en comidas rapidas y galardonados por el buen servicio y sazón.</p>
+            <video controls>
+                <source src="es-un-ejemplo-de-video.mp4" type="video/mp4">
+                Tu navegador no soporta videos.
+            </video>
+
+            <div class="audio">
+                <h2>PRUEBA DE IMPLEMENTACION DE AUDIO</h2>
+                <audio controls>
+                    <source src="es-un-ejemplo-de-audio.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h1>CONTACTO</h1>
+            <form action="submit_form.php" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Restaurante Comidas Rápidas. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
